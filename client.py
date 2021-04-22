@@ -41,3 +41,6 @@ def single_play():
     Test = Client("secret token here!! (game:play)", 'here your username')
     game_id_p = Test.get_game_id()
     do_best_move(game_id_p, get_moves(game_id_p, Test.secret_token), Test.secret_token)
+   
+
+single_play()
